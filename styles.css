@@ -35,7 +35,7 @@ main{
     width: 100%;
 }
 .component{
-    height: 50%;
+    height: auto;
     padding: 30px;
     width: 30%;
     display: flex;
@@ -45,6 +45,7 @@ main{
     border-radius: 25px;
 }
 .ratingPage{
+    gap: 30px;
 height: 100%;
 width: 100%;
 display: flex;
@@ -130,6 +131,7 @@ display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 
 
 }
